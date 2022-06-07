@@ -1,0 +1,32 @@
+.similar-jobs-title {
+  color: #fff;
+  margin-left: 15px;
+}
+.similar-jobs-lists {
+  padding-left: 0px;
+  list-style-type: none;
+  margin: 15px;
+  padding-bottom: 25px;
+}
+
+@media (min-width: 768px) {
+  .similar-jobs-lists {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.similar-jobs-list-item {
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  background-color: #202020;
+}
+
+@media (min-width: 768px) {
+  .similar-jobs-list-item {
+    width: 350px;
+    height: 450px;
+    margin-right: 15px;
+  }
+}

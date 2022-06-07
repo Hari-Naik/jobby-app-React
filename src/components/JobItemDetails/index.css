@@ -1,0 +1,196 @@
+.job-item-details-container {
+  background-color: black;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.job-item-details {
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #202020;
+  margin: 15px;
+  margin-top: 25px;
+}
+
+.description-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.company-website {
+  display: flex;
+  align-items: center;
+}
+
+.visit {
+  color: #6366f1;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  margin-right: 4px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.link-icon {
+  color: #6366f1;
+}
+
+.skills-list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 0px;
+  width: 90%;
+  list-style-type: none;
+}
+
+@media (min-width: 768px) {
+  .skills-container {
+    padding-top: 15px;
+    padding-bottom: 25px;
+  }
+  .skills-list {
+    justify-content: space-between;
+  }
+}
+
+.skill-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  margin-right: 25px;
+}
+.skills-title {
+  color: #fff;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 400;
+  padding-bottom: 15px;
+}
+
+.skill-item h3 {
+  color: #fff;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.skill-img {
+  width: 50px;
+  margin-right: 8px;
+}
+
+@media (min-width: 768px) {
+  .life-at-company-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .life-at-company-content {
+    width: 60%;
+  }
+}
+
+.life-at-company-title {
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  .life-at-company-title {
+    font-size: 32px;
+  }
+}
+
+.life-at-company-description {
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  .life-at-company-description {
+    font-size: 22px;
+  }
+}
+
+.failure-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 48px;
+  height: 90vh;
+  width: 100%;
+  padding-bottom: 64px;
+}
+
+@media screen and (min-width: 768px) {
+  .failure-view {
+    margin-top: 0px;
+    margin-left: 30px;
+    width: 70%;
+    padding-bottom: 0;
+  }
+}
+
+.failure-view-img {
+  width: 250px;
+  height: 200px;
+}
+
+@media screen and (min-width: 768px) {
+  .failure-view-img {
+    width: 400px;
+    height: 350px;
+  }
+}
+
+.failure-heading-text {
+  color: #fff;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+@media screen and (min-width: 768px) {
+  .failure-heading-text {
+    font-size: 24px;
+  }
+}
+
+.failure-description {
+  text-align: center;
+  color: #fff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  width: 90%;
+  max-width: 288px;
+  line-height: 1.3;
+}
+
+@media screen and (min-width: 768px) {
+  .failure-description {
+    font-size: 18px;
+    width: 60%;
+    max-width: 466px;
+  }
+}
+
+.retry-btn {
+  height: 32px;
+  width: 90px;
+  border-width: 0px;
+  border-radius: 8px;
+  color: #fff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: #6366f1;
+}
